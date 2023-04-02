@@ -8,7 +8,7 @@ Building realistic projects to improve my front-end skills.
 
 ### Links
 
-- Live Site URL: [Loopstudios landing page](https://fylo-land1ng-page-with-dark-theme.netlify.app/)
+- Live Site URL: [Loopstudios landing page](https://l00pstudios-landing-page.netlify.app/)
 
 ## Built with
 
