@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .btn {
+    @apply text-black uppercase text-xl tracking-[.5rem] border-2 border-black py-2 px-10 transition duration-300 hover:bg-black hover:text-white !important;
+  }
+  .creation-hover {
+    @apply relative transition duration-300 cursor-pointer after:content-[''] after:absolute after:w-full after:h-full after:bg-gray-400 after:bg-opacity-80 after:top-0 after:hidden hover:after:block hover:text-black;
+  }
+  .hover {
+    @apply after:hidden after:hover:block after:content-[''] after:w-5 after:h-[2.5px] after:rounded after:absolute after:bg-white after:-bottom-2 flex justify-center;
+  }
+}
